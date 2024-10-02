@@ -1,3 +1,5 @@
+#Stack using List
+
 class Stack():
    def __init__(self):
       self.items=[]
@@ -29,6 +31,6 @@ s1.push(10)
 s1.push(20)
 s1.push(30)
 print("Top element is",s1.peek())
-print("Removed element",s1.pop())
+# print("Removed element",s1.pop())
 print("Top element is",s1.peek())
 print()

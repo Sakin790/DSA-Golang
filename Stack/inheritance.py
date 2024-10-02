@@ -19,5 +19,6 @@ class Stack(list):
            raise IndexError("Error is Stack || Empty")
     def size(self):
         return len(self)
+    #diseble insert method
     def insert(self, index, data):
         raise AttributeError("No Attribute such insert")
