@@ -2,7 +2,7 @@ class Node():
     def __init__(self,item=None,next=None):
         self.item=item
         self.next=next
-
+#Lifo Method use korboo
 class Stack():
     def __init__(self):
         self.start=None
@@ -14,9 +14,9 @@ class Stack():
         self.start=n
         self.itemCount+=1
     def pop(self):
-        if not self.is_empty():
-            data=self.start.item
-            self.start=self.start.next
+        if not self.is_empty(): # jodi empty na hoi tahole tar moddhe data ache
+            data=self.start.item # for return item
+            self.start=self.start.next# start er modddhe next node er ref rakhbo
             self.itemCount-=1
             return data
         else:
